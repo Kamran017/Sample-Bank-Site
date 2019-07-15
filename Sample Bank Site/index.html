@@ -1,0 +1,369 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Azərbaycan Beynəlxalq Bankı</title>
+	<link rel="icon" type="image/png" href="images/1.png">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+</head>
+<body>
+
+<!-- HEADER STARTS -->
+	<div id="header">
+		<div class="main">
+			<div class="col5">
+				<div class="left">
+					<img src="images/15.png" alt="">
+					<a class="bank" href="">
+						Azərbaycan <br>Beynəlxalq Bankı
+					</a>
+					<a  class="ferdi" href="#">Fərdi</a>
+					<a class="korporativ" href="#">Korporativ</a>
+				</div>
+			</div>
+			<div class="col1"></div>
+			<div class="col6">
+				<div id="myModal" class="modal">
+					<div class="modalContent">
+						<span class="close">&times;</span>
+						<h3>
+							Bizimlə Əlaqə
+						</h3>
+						<ul class="informationModal" >
+							<li>Bizə zəng edin</li>
+							<li id="write">Bizə yazın</li>
+							<li>Online chat</li>
+							<li>Facebookda soruşun</li>
+						</ul>
+					</div>
+				</div>
+				<div id="myWrite">
+					<div class="writeUs">
+							<span class="close" >&times;</span>
+							<h3>
+								<span class="back">
+									<i class="fa fa-angle-left" aria-hidden="true"></i>
+								</span>
+								Bizimlə Əlaqə
+							</h3>
+							<div class="bottom">
+									<h2>
+										Bizə yazın
+									</h2>
+									<p>Ad və soyadınız</p>
+									<input type="text" placeholder="Ad və soyadınızı daxil edin">
+									<h1>Bank müştərisisinizmi?</h1>
+									<div class="yesNo">
+										<label>
+											<input type="radio" name="customer" value="1" checked="">
+											<span>Bəli</span> 
+										</label>
+										<label>
+											<input type="radio" name="customer" value="0">
+											<span>Xeyr</span>
+										</label>
+									</div>
+									<p>Mobil telefon nömrəsi</p>
+									<input type="text" placeholder="Mobil telefon nömrənizi daxil edin">
+									<p>Email</p>
+									<input type="text" placeholder="Email daxil edin">
+									<p>Müraciətinizin mövzusu</p>
+									<select>
+										<option value="Bank kartları">
+											Bank kartları
+										</option>
+										<option value="Kreditlər">
+											Kreditlər
+										</option>
+										<option value="Əmanətlər">
+											Əmanətlər
+										</option>
+										<option value="Köçürmələr">
+											Köçürmələr
+										</option>
+										<option value="Elektron-bankçılıq">
+											Elektron-bankçılıq
+										</option>
+										<option value="Digər">
+											Digər
+										</option>
+									</select>
+									<p>Müraciət</p>
+									<textarea placeholder="Müraciətinizi daxil edin">
+									</textarea>
+							</div>
+							<div class="complete">
+								<button id="complete">
+											Tamamlamaq
+								</button>
+							</div>
+					</div>
+				</div>
+				<ul>
+					<li><a class="contact" href="#">Bizimlə Əlaqə</a></li>
+					<li><a class="online" href="#">Bank Online</a></li>
+				</ul>
+				<div class="exchange">
+					<div class="money1">
+						<b class="USD">USD</b>
+						<b class="EUR">EUR</b>
+						<b class="GPB">GBP</b>
+						<b class="RUR">RUR</b>
+					</div>
+					<div class="money2">
+						<b class="">
+							"0.0023"
+							<u>ALIŞ</u>
+						</b>
+						<b class="">
+							"0.0022"
+							<u>ALIŞ</u>
+						</b>
+						<b class="">
+							"0.00281"
+							<u>ALIŞ</u>
+						</b>
+						<b class="">
+							"0.0029"
+							<u>ALIŞ</u>
+						</b>
+					</div>
+					<div class="money3">
+						<b class="">
+							"0.9993"
+							<u>SATIŞ</u>
+						</b>
+						<b class="">
+							"0.9993"
+							<u>SATIŞ</u>
+						</b>
+						<b class="">
+							"0.9999"
+							<u>SATIŞ</u>	
+						</b>
+						<b class="">
+							"0.9999"
+							<u>SATIŞ</u>
+						</b>
+					</div>
+				</div>
+				<h4>Internet Bank</h4>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<!-- Content STARTS -->
+	<div id="content">
+		<div class="search">
+			<span class="searchPlaceholder">Sizə necə kömək edə bilərik?</span>
+			<a class="searchIcon"></a>
+			<a class="menu">
+				<u class="u"></u>
+				<u class="c"></u>
+				<u class="k"></u>
+			</a>
+			<input class="help"type="text">
+			 <div id="barMenu">
+				 <div class="menuContent">
+						<div class="title">
+							<label id="Ferdi">
+								<input type="radio" name="customer" value="1" checked="" style="display: none;"> 
+								<span class="Ferdi">Fərdi</span> 
+							</label>
+							<label id="Ferdi">
+								<input type="radio" name="customer" value="0" style="display: none">
+								<span class="Korporativ">Korporativ</span>
+							</label>
+							<span class="closeBarMenu">&times;</span>
+						</div>
+						<div class="ferdiSlide">
+								<div class="axtar">
+									<input type="text" placeholder="Axtar">
+								</div>
+								<div class="col4">
+									<a href="#" class="header">Bank 24/7</a>
+									<ul>
+										<li><a href="#" class="inside">MobilBank</a></li>
+										<li><a href="#" class="inside">InternetBank</a></li>
+										<li><a href="#" class="inside">Bankomat</a></li>
+										<li><a href="#" class="inside">Ödəniş terminalı</a></li>
+										<li><a href="#" class="inside">Cash-in bankomatı</a></li>
+									</ul>
+								</div>
+								<div class="col4" id="kreditlər">
+									<a href="#" class="header">Kreditlər</a>
+									<ul>
+										<li><a href="#" class="inside">Əmək haqqı krediti</a></li>
+										<li><a href="#" class="inside">Pensiya krediti</a></li>
+										<li><a href="#" class="inside">Pensiya+</a></li>
+										<li><a href="#" class="inside">Kart üzrə kredit limiti</a></li>
+										<li><a href="#" class="inside">Əmanətçi nağd krediti</a></li>
+										<li><a href="#" class="inside">Əmanətçi krediti limiti</a></li>
+										<li><a href="#" class="inside">İpoteka krediti(AİF) </a></li>
+									</ul>
+								</div>
+								<div class="col3" id="əmanət">
+									<a href="#" class="header">Əmanətlər</a>
+									<ul>
+										<li><a href="#" class="inside">Klassik Əmanəti</a></li>
+										<li><a href="#" class="inside">ElektronDepozit</a></li>
+										<li><a href="#" class="inside">ƏmanətlərinSığortalanması</a></li>
+										<li><a href="#" class="inside">Depozit Seyfi</a></li>
+									</ul>
+								</div>
+								<div class="left" style="float: left"> 
+									<div class="col4" id="kartlar">
+										<a href="#" class="header">Ödəniş kartları</a>
+										<ul>
+											<li><a href="#" class="inside">Status kartlar</a></li>
+											<li><a href="#" class="inside">Sadəcə kartlar</a></li>
+											<li><a href="#" class="inside">Virtual kartlar</a></li>
+											<li><a href="#" class="inside">Eksklüziv kartlar</a></li>
+										</ul>
+									</div>
+									<div class="col4" id="elektronXidmet">
+										<a href="#" class="header">Elektron Xidmətlər</a>
+										<ul>
+											<li><a href="#" class="inside">Karta pul yatırın</a></li>
+											<li><a href="#" class="inside">Kartdan pul köçürün</a></li>
+											<li><a href="#" class="inside">Bankda görüş təyin edin</a></li>
+											<li><a href="#" class="inside">Xidmət haqlarını ödəyin</a></li>
+											<li><a href="#" class="inside">PIN-kodunuzu dəyişin</a></li>
+										</ul>
+									</div>
+									<div class="col4">
+										<ul id="kamranEmanet">
+											<li><a href="#" class="inside">Əmanət açın</a></li>
+											<li><a href="#" class="inside">Kreditinizi ödəyin</a></li>
+											<li><a href="#" class="inside">Əməliyyatlardan xəbərdar olun</a></li>
+											<li><a href="#" class="inside">Kartınızı qoruyun</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="korporativSlide">
+								<div class="axtar">
+									<input type="text" placeholder="Axtar">
+								</div>
+								<div class="col4">
+									<a href="#" class="header">Elektron bankçılıq</a>
+									<ul>
+										<li><a href="#" class="inside">InternetBank</a></li>
+										<li><a href="#" class="inside">Kartların ödənişə qəbulu</a></li>
+										<li><a href="#" class="inside">Elektron ticarət</a></li>
+									</ul>
+								</div>
+								<div class="col4" id="kreditlər">
+									<a href="#" class="header">Biznes kreditləri</a>
+									<ul>
+										<li><a href="#" class="inside">Qısamüddətli kreditlər</a></li>
+										<li><a href="#" class="inside">Uzunmüddətli kreditlər</a></li>
+									</ul>
+								</div>
+								<div class="col3" id="əmanət">
+									<a href="#" class="header">Sənədli əməliyyatlar</a>
+									<ul>
+										<li><a href="#" class="inside">Akkreditiv</a></li>
+										<li><a href="#" class="inside">Qarantiya</a></li>
+										<li><a href="#" class="inside">İnkasso</a></li>
+									</ul>
+								</div>
+								<div class="left" style="float: left"> 
+									<div class="col4" id="kartlar">
+										<a href="#" class="header">Ödəniş kartları</a>
+										<ul>
+											<li><a href="#" class="inside">Status kartlar</a></li>
+											<li><a href="#" class="inside">Sadəcə kartlar</a></li>
+											<li><a href="#" class="inside">Virtual kartlar</a></li>
+											<li><a href="#" class="inside">Eksklüziv kartlar</a></li>
+										</ul>
+									</div>
+									<div class="col4" id="elektronXidmet">
+										<a href="#" class="header">Elektron Xidmətlər</a>
+										<ul>
+											<li><a href="#" class="inside">Karta pul yatırın</a></li>
+											<li><a href="#" class="inside">Kartdan pul köçürün</a></li>
+											<li><a href="#" class="inside">Bankda görüş təyin edin</a></li>
+											<li><a href="#" class="inside">Xidmət haqlarını ödəyin</a></li>
+											<li><a href="#" class="inside">PIN-kodunuzu dəyişin</a></li>
+										</ul>
+									</div>
+									<div class="col4">
+										<ul id="kamranEmanet">
+											<li><a href="#" class="inside">Əmanət açın</a></li>
+											<li><a href="#" class="inside">Kreditinizi ödəyin</a></li>
+											<li><a href="#" class="inside">Əməliyyatlardan xəbərdar olun</a></li>
+											<li><a href="#" class="inside">Kartınızı qoruyun</a></li>
+										</ul>
+									</div>
+								</div>		
+							</div>
+				 </div>
+			 </div>
+		</div>
+		<div class="inner">
+			<div class="col3"></div>
+				<div class="slider col4">
+					<div class="dot">
+						<i id="first" class="fa fa-circle" aria-hidden="true"></i>
+						<i id="second" class="fa fa-circle" aria-hidden="true"></i>
+						<i id="third" class="fa fa-circle" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div class="payments col2">
+					<h2>Ödənişləri aparın</h2>
+					<div class="col5">
+						<a href="">Ətraflı</a>
+					</div>	
+					<div class="col7">
+						<img src="images/4.png" alt="">
+					</div>
+				</div>
+				<div class="col3"></div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<!-- Footer stars -->
+	<div id="footer">
+		<div class="col5">
+			<ul>
+				<li><a href="">Haqqimızda</a></li>
+				<li><a href="">Xidmət şəbəkəsi</a></li>
+				<li><a href="">Xəbərlər</a></li>
+				<li><a href="">Tariflər</a></li>
+				<li><a href="">Məzənnələr</a></li>
+			</ul>
+			<div class="info">
+				<span>
+				© Azərbaycan Beynəlxalq Bankı - Bütün hüquqlar qorunur  
+				</span>
+				<p>Created by Kamran E. Balayev</p>
+			</div>
+		</div>
+		<div class="symbols col3">
+			<img src="images/2.png" alt="">
+			<img src="images/3.png" alt="">
+			<a href="">fimsa.az</a>
+		</div>
+		<div class="col1"></div>
+		<div class="contact col3">
+			<ul>	
+				<li><a href="">English</a></li>
+				<li><a href="">По-русски</a></li>
+			</ul>
+			<img style="float: right; margin-top: -32px; cursor: pointer;" src="images/6.png" alt="">
+			<div class="social">
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-youtube-play" aria-hidden="true"></i>
+				<i class="fa fa-telegram" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="java/script.js"></script>

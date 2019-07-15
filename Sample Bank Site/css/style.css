@@ -1,0 +1,46 @@
+.col1{
+	width:8.3333%;
+}
+.col2{
+	width:16.6666%;
+}
+.col3{
+	width:24.9999%;
+}
+.col4{
+	width:33.3332%;
+}
+.col5{
+	width:41.6665%;
+}
+.col6{
+	width:49.9998%;
+}
+.col7{
+	width:58.3331%;
+}
+.col8{
+	width:66.6664%;
+}
+.col9{
+	width:74.9997%;
+}
+.col10{
+	width:83.333%;
+}
+.col11{
+	width:91.6663%;
+}
+.col12{
+	width:99.9996%;
+}
+
+[class*="col"] {
+   height:auto;
+   float:left;
+   box-sizing: border-box;
+   padding:5px;
+}
+.clear{
+	clear: both;
+}
